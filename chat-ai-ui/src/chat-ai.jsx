@@ -43,7 +43,7 @@ function Chat() {
     setInput("");
 
     try {
-      const response = await axios.get("http://localhost:8080/chat/ai", {
+      const response = await axios.get(`${import.meta.env.VITE_URL}/chat/ai`, {
         params: { message: input },
       });
 
