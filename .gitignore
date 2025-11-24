@@ -1,0 +1,5 @@
+# Backend sensitive config
+chat-with-ai/src/main/resources/application.properties
+
+# Frontend environment
+chat-ai-ui/.env
